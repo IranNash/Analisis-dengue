@@ -9,6 +9,6 @@ lint:
 	pylint --disable=R,C Analisis_descriptivo.py
 
 test:  
-	pytest -m pytest -vv --cov=Analisis_descriptivo test_Analisis_descriptivo.py
+	pytest -vv --cov=Analisis_descriptivo test_Analisis_descriptivo.py
 	
 all: install lint test

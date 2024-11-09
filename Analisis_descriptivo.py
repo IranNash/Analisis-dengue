@@ -9,7 +9,6 @@ genero = conteo_genero(df1)
 
 print(genero)
 
-#para test
 def dimen(df):
     conteo = df.groupby('SEXO').size().reset_index(name = 'conteo')
     num = len(conteo)
